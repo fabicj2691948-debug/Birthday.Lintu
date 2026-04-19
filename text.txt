@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday Lintu 🪄</title>
+
+  <!-- Harry Potter style font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f") no-repeat center center/cover;
+      color: #f5e6c8;
+      font-family: 'Cinzel', serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    .letter {
+      background: rgba(0,0,0,0.7);
+      padding: 20px;
+      border-radius: 15px;
+      display: inline-block;
+      max-width: 600px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      background: gold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🪄 Happy Birthday Lintu 🪄</h1>
+
+  <div class="letter">
+    <p>
+      Dear Lintu,
+    </p>
+
+    <p>
+      On this magical day, I just want to remind you how special you are.  
+      You are sweeter than any spell and funnier than a Weasley joke.
+    </p>
+
+    <p>
+      Life with you feels like living in a world full of magic,  
+      and I wouldn’t trade it for anything.
+    </p>
+
+    <p>
+      I’m so lucky to have you ❤️
+    </p>
+
+    <button onclick="reveal()">Open Your Surprise 🎁</button>
+
+    <p id="secret" style="display:none; margin-top:15px;">
+My very own Hermione Granger, but cuter, funnier, and somehow still putting up with me… now that’s real magic ✨😄
+     Happy Birthday to my favorite Muggle!💗
+    </p>
+  </div>
+
+  <script>
+    function reveal() {
+      document.getElementById("secret").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
